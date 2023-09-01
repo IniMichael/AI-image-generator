@@ -7,7 +7,7 @@ import Image from './Components/Image';
 const App = () => {
 
   return (
-    <div className="App w-screen h-screen flex-col m-auto items-center gap-7 sm:">
+    <div className="App w-screen h-screen flex-col m-auto items-center gap-7">
           <ImageGenerator />
           <Input />
           <Generate />
