@@ -1,17 +1,11 @@
-import './App.css'
+import React, { useRef, useState } from 'react';
 import ImageGenerator from './Components/ImageGenerator';
-import Input from './Components/Input';
-import Generate from './Components/Generate';
-import Image from './Components/Image';
 
-const App = () => {
+function App () {
 
   return (
-    <div className="App w-screen h-screen flex-col m-auto items-center gap-7">
+    <div className="App flex-col m-auto items-center gap-7">
           <ImageGenerator />
-          <Input />
-          <Generate />
-          <Image />
     </div>
   );
 }
