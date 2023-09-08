@@ -20,7 +20,7 @@ const ImageGenerator = () => {
                 headers:{
                     "Content-Type":"application/json",
                     Authorization:
-                    `Bearer ${import.meta.env.VITE_APP_OPENAI_API_KEY}`,
+                    `Bearer ${import.meta.env.VITE_APP_OPENAI_API_KEY_NEW}`,
                 },
                 body:JSON.stringify({
                     prompt: `${inputRef.current.value}`,
