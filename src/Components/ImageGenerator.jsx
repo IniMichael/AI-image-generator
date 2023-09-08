@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react'
 import default_image from '/butterfly.jpg'
-import { openai } from '../config/openaiconfig';
+// import { openai } from '../config/openaiconfig';
 
 const ImageGenerator = () => {
 
@@ -21,7 +21,7 @@ const ImageGenerator = () => {
                 headers:{
                     "Content-Type":"application/json",
                     Authorization:
-                    `Bearer ${openai}`,
+                    `Bearer ${import.meta.env.VITE_APP_OPEN_AI_KEY}`,
                 },
                 body:JSON.stringify({
                     prompt: `${inputRef.current.value}`,
