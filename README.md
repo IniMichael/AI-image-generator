@@ -1,6 +1,3 @@
-How will the following readme appear when pushed to github?
-
-
 The `AI Image Generator` allows users to generate images using the OpenAI API based on user-provided text descriptions.
 
 It aims to address the following `problems`:
